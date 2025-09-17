@@ -77,7 +77,7 @@ function MusicApp() {
   // ---------------- STRIPE ----------------
   const handleStripeCheckout = async () => {
     try {
-      const response = await fetch("http://localhost:5000/create-checkout-session", {
+      const response = await fetch("https://ZaphieZaps.github.io/martian-haze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
